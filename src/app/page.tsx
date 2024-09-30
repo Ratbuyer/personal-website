@@ -18,9 +18,8 @@ export default function HomePage() {
           {/* directly below the image */}
           <div className="flex-co flex p-1">
             <ul className="space-y-1">
-              <li>
-                Office: 756 W Peachtree St NW, Room S1347N, Atlanta, Georgia,
-                USA
+              <li className="text-green-500">
+                Yicong <span className="text-red-400">(Eddy)</span> Luo
               </li>
 
               <li>yluo460[at]gatech[dot]edu</li>
@@ -49,10 +48,10 @@ export default function HomePage() {
         {/* Center */}
         <div className="mx-3 w-1/3 p-4">
           <h1 className="mb-3 text-center text-xl text-green-600">About</h1>
-          My name is Yicong (Eddy) Luo. I am a first year PhD student in the
+          I am a first year PhD student in the
           School of computational science and engineering at Georgia Tech under
           Helen Xu. I completed my undergraduate degree in the Computer Science
-          Specialist program at the University of Toronto in Canada in June
+          Specialist program at the University of Toronto in June
           2024.
           <br />
           <br />I am interested in High Performance Computing. During my
