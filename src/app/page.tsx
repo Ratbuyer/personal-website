@@ -51,8 +51,8 @@ export default function HomePage() {
           2024.
           <br />
           <br />I am interested in High Performance Computing. During my
-          undergraduate study I worked in Dr. Maryam Dehnavi's lab on the topic
-          of Sparse Matrix Multiplication on Nvidia's GPU. I am currently
+          undergraduate study I worked in Dr. Maryam Dehnavi&apos;s lab on the topic
+          of Sparse Matrix Multiplication on Nvidia&apos;s GPU. I am currently
           working on Paralle data structure and algorithm.
         </div>
 
