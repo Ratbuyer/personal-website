@@ -48,11 +48,10 @@ export default function HomePage() {
         {/* Center */}
         <div className="mx-3 w-1/3 p-4">
           <h1 className="mb-3 text-center text-xl text-green-600">About</h1>
-          I am a first year PhD student in the
-          School of computational science and engineering at Georgia Tech under
-          Helen Xu. I completed my undergraduate degree in the Computer Science
-          Specialist program at the University of Toronto in June
-          2024.
+          I am a first year PhD student in the School of computational science
+          and engineering at Georgia Institute of Technology advised by Helen
+          Xu. I completed my undergraduate degree in the Computer Science
+          Specialist program at the University of Toronto in June 2024.
           <br />
           <br />I am interested in High Performance Computing. During my
           undergraduate study I worked in Dr. Maryam Dehnavi&apos;s lab on the
