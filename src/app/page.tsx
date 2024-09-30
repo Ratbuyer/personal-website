@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="min-h-svh items-center justify-center bg-gradient-to-b p-5 from-[#f6f3f4] to-[#f4e1ef] text-green-900">
+    <main className="min-h-svh items-center justify-center bg-gradient-to-b from-[#f6f3f4] to-[#f4e1ef] p-5 text-green-800">
       <div className="flex w-full flex-row justify-center">
         {/* Left side: Image and links */}
         <div className="item-center mx-3 flex w-1/4 flex-col">
@@ -16,9 +16,14 @@ export default function HomePage() {
           </div>
 
           {/* directly below the image */}
-          <div className="flex flex-co p-1">
+          <div className="flex-co flex p-1">
             <ul className="space-y-1">
-              <li>yluo460 [at] gatech [dot] edu</li>
+              <li>
+                Office: 756 W Peachtree St NW, Room S1347N, Atlanta, Georgia,
+                USA
+              </li>
+
+              <li>yluo460[at]gatech[dot]edu</li>
 
               <li>+1 404-432-8754</li>
 
@@ -51,14 +56,16 @@ export default function HomePage() {
           2024.
           <br />
           <br />I am interested in High Performance Computing. During my
-          undergraduate study I worked in Dr. Maryam Dehnavi&apos;s lab on the topic
-          of Sparse Matrix Multiplication on Nvidia&apos;s GPU. I am currently
-          working on Paralle data structure and algorithm.
+          undergraduate study I worked in Dr. Maryam Dehnavi&apos;s lab on the
+          topic of Sparse Matrix Multiplication on Nvidia&apos;s GPU. I am
+          currently working on Paralle data structure and algorithm.
         </div>
 
         {/* Right side */}
         <div className="mx-3 flex w-1/3 flex-col p-4">
-          <h1 className="mb-3 text-center text-xl text-green-600">Publications</h1>
+          <h1 className="mb-3 text-center text-xl text-green-600">
+            Publications
+          </h1>
           <ul className="space-y-2">
             <li>Nothing yet LOL</li>
           </ul>
