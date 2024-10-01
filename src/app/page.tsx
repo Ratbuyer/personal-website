@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="min-h-svh items-center justify-center bg-gradient-to-b from-[#f6f3f4] to-[#f4e1ef] p-5 text-green-800">
+    <main className="min-h-svh items-center justify-center bg-gradient-to-b to-[#f6f3f4] from-[#f4e1ef] p-5 text-green-800">
       <div className="flex w-full flex-row justify-center">
         {/* Left side: Image and links */}
         <div className="item-center mx-3 flex w-1/4 flex-col">
