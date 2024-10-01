@@ -16,32 +16,30 @@ export default function HomePage() {
           </div>
 
           {/* directly below the image */}
-          <div className="flex-co flex p-1">
-            <ul className="space-y-1">
-              <li className="text-green-500">
-                Yicong <span className="text-red-400">(Eddy)</span> Luo
-              </li>
-
-              <li>yluo460[at]gatech[dot]edu</li>
-
-              <li>+1 404-432-8754</li>
-
-              <li>
-                Follow on{" "}
-                <Link
-                  href="https://www.linkedin.com/in/eddyluo1"
-                  className="text-blue-600 underline"
-                >
-                  LinkedIn,
-                </Link>{" "}
-                <Link
-                  href="https://github.com/Ratbuyer"
-                  className="text-blue-600 underline"
-                >
-                  GitHub
-                </Link>
-              </li>
-            </ul>
+          <div className="flex flex-col p-1">
+            <div>
+              Yicong <span className="text-red-400">(Eddy)</span> Luo
+            </div>
+            <br />
+            yluo460 at gatech dot edu
+            <br />
+            +1 404-432-8754
+            <br />
+            <div>
+            Follow on{" "}
+            <Link
+              href="https://www.linkedin.com/in/eddyluo1"
+              className="text-blue-600 underline"
+            >
+              LinkedIn,
+            </Link>{" "}
+            <Link
+              href="https://github.com/Ratbuyer"
+              className="text-blue-600 underline"
+            >
+              GitHub
+            </Link>
+            </div>
           </div>
         </div>
 
